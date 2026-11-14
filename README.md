@@ -35,8 +35,8 @@ All evaluation metrics were measured on recordings never seen during training:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com<your-username>/BrainPrint.git
-cd BrainPrint
+git clone https://github.com/chifaa-VscCnt/BrainPrint-.git
+cd BrainPrint-
 ```
 
 ### 2. Install dependencies
