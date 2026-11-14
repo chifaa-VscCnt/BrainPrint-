@@ -1,0 +1,9 @@
+mne_data/
+features*.csv
+ablation_results.csv
+phase5_results.csv
+brainprint_rf.joblib
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
