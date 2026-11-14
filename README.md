@@ -59,7 +59,7 @@ The app will open in your browser at `http://localhost:8501`. You can select a p
 ```text
 ├── app.py                      # Interactive Streamlit web application
 ├── brainprint_features.py      # Band-pass filtering and PSD feature extraction
-├── notebook.ipynb              # End-to-end training, ablation, and stress-test experiments
+├── BrainPrint_project.ipynb    # End-to-end training, ablation, and stress-test experiments
 ├── brainprint_rf_30.joblib     # Pre-trained Random Forest identification model (30 subjects)
 ├── brainprint_auth_rf.joblib   # Pre-trained Random Forest verification model (20 enrolled)
 ├── auth_curves.csv             # False Acceptance Rate (FAR) & False Rejection Rate (FRR) summary
