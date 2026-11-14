@@ -50,7 +50,7 @@ streamlit run app.py
 ```
 The app will open in your browser at `http://localhost:8501`. You can select a pre-loaded recording from `demo_recordings/` or upload any PhysioNet `.edf` file (e.g., `S001R07.edf`).
 
-*(Optional)* To reproduce the full feature extraction and model training pipeline from scratch, open `notebook.ipynb` and run all cells—MNE will automatically download the required PhysioNet `.edf` recordings.
+*(Optional)* To reproduce the full feature extraction and model training pipeline from scratch, open `open BrainPrint_project.ipynb` and run all cells—MNE will automatically download the required PhysioNet `.edf` recordings.
 
 ---
 
@@ -64,6 +64,7 @@ The app will open in your browser at `http://localhost:8501`. You can select a p
 ├── brainprint_auth_rf.joblib   # Pre-trained Random Forest verification model (20 enrolled)
 ├── auth_curves.csv             # False Acceptance Rate (FAR) & False Rejection Rate (FRR) summary
 ├── requirements.txt            # Python package dependencies
+├── make_demo_recordings.py     # Helper script to generate sample .edf files for the demo
 ├── demo_recordings/            # Sample unseen .edf EEG recordings for testing the app
 └── figures/                    # Confusion matrices, FAR/FRR curves, and ablation plots
 ```
